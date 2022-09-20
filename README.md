@@ -13,6 +13,8 @@ Run ```yarn add portal-storm``` or ```npm i portal-storm```.
 
 ## Usage
 
+__Note:__ Both the `container` and the `children` props are _required_.
+
 ```jsx
 import React from 'react';
 import Portal from 'portal-storm';

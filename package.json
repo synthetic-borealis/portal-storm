@@ -1,7 +1,23 @@
 {
   "name": "portal-storm",
-  "version": "0.0.0",
+  "author": "Elhanan Flesch",
+  "description": "A simple wrapper component for React portals.",
   "license": "MIT",
+  "version": "0.0.0",
+  "homepage": "https://github.com/synthetic-borealis/portal-storm",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/synthetic-borealis/portal-storm.git"
+  },
+  "bugs": {
+    "url": "https://github.com/synthetic-borealis/portal-storm/issues"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "portal",
+    "react-portal"
+  ],
   "main": "lib/index.js",
   "types": "types/index.d.ts",
   "files": [
