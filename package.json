@@ -17,8 +17,8 @@
     "postpack": "yarn clean",
     "prepublish": "in-publish && yarn clean && yarn build || not-in-publish",
     "postpublish": "yarn clean",
-    "jest-init": "jest --init",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "dependencies": {
     "react": "^18.2.0",

@@ -1,5 +1,9 @@
 # Portal Storm
 
+![GitHub](https://img.shields.io/github/license/synthetic-borealis/portal-storm)
+[![npm version](https://badge.fury.io/js/portal-storm.svg)](https://badge.fury.io/js/portal-storm)
+![Tests](https://github.com/synthetic-borealis/portal-storm/actions/workflows/test.yml/badge.svg)
+
 A simple wrapper component for React portals.
 
 ## Installation

@@ -3,12 +3,12 @@ export default {
   clearMocks: true,
 
   // A list of reporter names that Jest uses when writing coverage reports
-  // coverageReporters: [
-  //   "json",
-  //   "text",
-  //   "lcov",
-  //   "clover"
-  // ],
+  coverageReporters: [
+    "json",
+    "html",
+    "cobertura",
+    "clover"
+  ],
 
   // An array of file extensions your modules use
   moduleFileExtensions: [
