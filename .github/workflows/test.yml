@@ -3,8 +3,10 @@ name: Unit Tests
 on:
   push:
     paths:
-      - 'src/**/*.ts*'
-      - '__tests__/**/*.ts*'
+      - 'src/**.tsx'
+      - 'src/**.ts'
+      - '__tests__/**.tsx'
+      - '__tests__/**.ts'
       - 'package.json'
       - '.github/workflows/test.yml'
     branches: [ main, develop ]
