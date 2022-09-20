@@ -1,8 +1,9 @@
 # Portal Storm
 
-A wrapper component for React portals.
+A simple wrapper component for React portals.
 
 ## Installation
+
 Run ```yarn add portal-storm``` or ```npm i portal-storm```.
 
 ## Usage

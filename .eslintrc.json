@@ -8,6 +8,20 @@
     "airbnb-typescript"
   ],
   "overrides": [
+    {
+      "files": [
+        "__tests__/**"
+      ],
+      "plugins": [
+        "jest"
+      ],
+      "extends": [
+        "airbnb",
+        "airbnb-typescript",
+        "plugin:jest/recommended",
+        "plugin:jest/style"
+      ]
+    }
   ],
   "parser": "@typescript-eslint/parser",
   "parserOptions": {

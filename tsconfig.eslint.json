@@ -11,15 +11,14 @@
     "declarationDir": "types/",
     "allowJs": false,
     "skipLibCheck": true,
-    "esModuleInterop": false,
+    "esModuleInterop": true,
     "useDefineForClassFields": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
     "moduleResolution": "Node",
     "resolveJsonModule": true,
-    "isolatedModules": true
+    "isolatedModules": false
   },
-  "include": ["src/"],
-  "exclude": ["types/"]
+  "include": ["src/", "__tests__/"]
 }
